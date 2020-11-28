@@ -38,7 +38,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto ">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#"
                 >Inicio <span class="sr-only">(current)</span></a
@@ -93,28 +93,15 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 text-left">
                   <img id="main-logo" src="./IMG/logocolor.png" alt="Logo" />
                   <p class="d-none d-md-block">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Molestiae nulla aspernatur nam quasi atque! Consequatur
-                    molestiae nesciunt doloremque explicabo dolore, eum quia
-                    totam. Laboriosam reiciendis natus qui illo tempore harum!
+                    El objetivo de este proyecto consiste en ayudar a personas
+                    enfermas de Alzheimer proporcionándoles ayuda inmediata.
+                    Haciendo uso de códigos QR impresos en tarjetas ID, que, al
+                    ser escaneadas, estas tendrán un numero único de
+                    identificación de usuario, al ser ingresado en el sistema
+                    contendrá información personal previamente autorizada por
+                    los familiares.
                   </p>
 
-                  <a
-                    data-toggle="modal"
-                    data-target="#modalLog"
-                    type="button"
-                    class="btn btn-secondary "
-                  >
-                    Log in
-                  </a>
-                  <a
-                    data-toggle="modal"
-                    data-target="#modalSign"
-                    type="button"
-                    class="btn btn-primary"
-                  >
-                    Sign in
-                  </a>
                 </div>
               </div>
             </div>
@@ -129,19 +116,19 @@
       <div class="container">
         <div class="row mt-5 text-center">
           <div class="col">
-            <h2>¿Como funciona?</h2>
-            <h6>Te explicamos brevemente.</h6>
+            <h2  class="display-4">¿Como funciona?</h2>
+            <h4>Te explicamos brevemente.</h4>
           </div>
         </div>
         <div class="row mt-4 text-center" id="info-details">
           <div class="col-lg-4 col-12 4 mb-5">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">El paciente</h5>
                 <img src="./IMG/doc.png" alt="Datos" />
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Sus datos seran registrados en nuestra base, creando asi un
+                  codigo QR unico, que guardara un id unico.
                 </p>
               </div>
             </div>
@@ -149,11 +136,11 @@
           <div class="col-lg-4 col-12 mb-5">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">El doctor</h5>
                 <img src="./IMG/doctor.png" alt="Datos" />
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Una vez el respectivo doctor haya registrado los datos podra
+                  consultarlos o actualizarlos en cualquier momento.
                 </p>
               </div>
             </div>
@@ -161,11 +148,12 @@
           <div class="col-lg-4 col-12 mb-5">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">La informacion</h5>
                 <img src="./IMG/seguridad.png" alt="Datos" />
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  En caso de extravio, la tarjeta
+                  llevara telefono de contacto a la clinica, 
+                  por lo tanto solo la clinica pose la informacion privada.
                 </p>
               </div>
             </div>
@@ -173,7 +161,15 @@
         </div>
         <div class="row mb-5 text-center">
           <div class="col">
-            <button type="button" class="btn btn-primary">Registrate</button>
+            <h3  class="display-4"> Tarjeta de identifiacion </h3>
+            Se permitirá descargar el QR, que sera colocado 
+            en la plantilla de tarjeta que podra descargar a continuacion. 
+            <img src="./IMG/ejemplotarjeta.png" width="400px" alt="Tarjeta">
+          </div>
+        </div>
+        <div class="row mb-5 text-center">
+          <div class="col">
+            <a href="Formato_Tarjeta_QR.docx" class="btn btn-primary"> Descargar plantilla </a>
           </div>
         </div>
       </div>
@@ -185,15 +181,14 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col mt-5 mb-5 text-center">
-            <img src="./IMG/logo.png" alt="logo">
-            <br>
-            © 2020 QR ALZHEIMER | ALL RIGHTS RESERVED 
-            <br>
-            All trademarks referenced
-            herein are the properties of their respective owners. 
-            <br>
-            PRIVACIDAD |
-            INICIO | LOG IN
+            <img src="./IMG/logo.png" alt="logo" />
+            <br />
+            © 2020 QR ALZHEIMER | ALL RIGHTS RESERVED
+            <br />
+            All trademarks referenced herein are the properties of their
+            respective owners.
+            <br />
+            PRIVACIDAD | INICIO | LOG IN
           </div>
         </div>
       </div>
